@@ -1,0 +1,22 @@
+# .gitignore
+*.pyc
+__pycache__/
+
+venv/
+env/
+ENV/
+*.env
+
+.DS_Store
+.idea/
+*.vscode/
+*.log
+
+db.sqlite3
+
+*/migrations/*.py
+*/migrations/*.pyc
+*/migrations/__pycache__/
+
+staticfiles/
+media/
